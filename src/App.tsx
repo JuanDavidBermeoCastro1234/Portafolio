@@ -2,11 +2,12 @@ import type { ReactNode } from 'react'
 import { useEffect, useState } from 'react'
 import { LiaSuitcaseSolid } from 'react-icons/lia'
 import profilePhoto from './assets/foto de mi hermosura.jpg'
-import accesibilidadScreenshot from './assets/projects/accesibilidad.png'
-import buscadorAccionesScreenshot from './assets/projects/buscador-acciones.png'
+import instagram from './assets/projects/instagram.png'
+import Diseños from './assets/projects/mi-pagina-web.png'
+import JuegoPreguntasReact from './assets/projects/juego-preguntas-react.png' 
 import frontendAppScreenshot from './assets/projects/frontend-app.png'
 import gifsAppScreenshot from './assets/projects/gifs-app.png'
-import productLandingScreenshot from './assets/projects/product-landing.png'
+import chatbot from './assets/projects/chatbot-2-d.png'
 import scaleupScreenshot from './assets/projects/scaleup.png'
 import './App.css'
 
@@ -79,37 +80,48 @@ const projects: Project[] = [
     tags: ['JavaScript', 'CSS', 'UI', 'Vercel'],
   },
   {
-    title: 'Buscador de Acciones',
+    title: 'Juego Preguntas React',
     summary:
-      'Herramienta frontend para explorar informacion de acciones, trabajar estados de busqueda y presentar datos de forma entendible.',
-    repository: 'https://github.com/JuanDavidBermeoCastro1234/-BuscadorAcciones',
-    preview: 'https://juandavidbermeocastro1234.github.io/-BuscadorAcciones/',
-    screenshot: buscadorAccionesScreenshot,
-    imageAlt: 'Captura del buscador de acciones',
-    tags: ['JavaScript', 'Datos', 'GitHub Pages'],
+      'Aplicación de trivia creada con Next.js y TypeScript que desafía a los usuarios con preguntas aleatorias, comodines estratégicos y seguimiento de resultados mediante almacenamiento local.',
+    repository: 'https://github.com/JuanDavidBermeoCastro1234/JuegoPreguntasReact',
+    preview: 'https://juego-preguntas-react-cx5p.vercel.app',
+    screenshot: JuegoPreguntasReact, 
+    imageAlt: 'Captura del juego',
+    tags: ['nextjs', 'react', 'typescript', 'javascript'],
   },
   {
-    title: 'Product Landing Page',
+    title: 'Chatbot n8n',
     summary:
-      'Landing page responsive con foco en jerarquia visual, secciones comerciales, llamados a la accion y buen acabado CSS.',
+      'Sistema de creación y gestión de chatbots con IA para WhatsApp, integrado con n8n, OpenAI y Evolution API para automatizar ventas, soporte y atención al cliente.',
     repository:
-      'https://github.com/JuanDavidBermeoCastro1234/Product-landing-page',
-    preview: 'https://product-landing-page-smoky-omega.vercel.app',
-    screenshot: productLandingScreenshot,
-    imageAlt: 'Captura de Product Landing Page',
-    tags: ['CSS', 'HTML', 'Landing', 'Vercel'],
+      'https://github.com/JuanDavidBermeoCastro1234/chatbot-2-d',
+    screenshot: chatbot,
+    imageAlt: 'Captura del repo del chatbot ',
+    tags: ['chatbot', 'openai', 'n8n', 'javascript','evolution-api'],
   },
   {
-    title: 'Prototipo accesible',
+    title: 'instagram',
     summary:
-      'Prototipo interactivo pensado para personas con dificultades visuales, con decisiones de interfaz orientadas a accesibilidad.',
+      'Clon visual de la página principal de Instagram desarrollado con HTML y CSS, diseñado para replicar fielmente la interfaz, el diseño responsive y la experiencia visual de la plataforma en dispositivos móviles y de escritorio.',
     repository:
-      'https://github.com/JuanDavidBermeoCastro1234/Prototipo-interactivo-de-p-gina-web-para-personas-con-dificultades-visuales',
+      'https://github.com/JuanDavidBermeoCastro1234/instagram',
     preview:
-      'https://juandavidbermeocastro1234.github.io/Prototipo-interactivo-de-p-gina-web-para-personas-con-dificultades-visuales/',
-    screenshot: accesibilidadScreenshot,
-    imageAlt: 'Captura del prototipo interactivo accesible',
+      'https://juandavidbermeocastro1234.github.io/instagram',
+    screenshot: instagram,
+    imageAlt: 'Captura de la pantalla principal de instagram',
     tags: ['CSS', 'Accesibilidad', 'UI'],
+  },
+    {
+    title: 'Diseño de 50 paginas web',
+    summary:
+      'Colección de más de 50 diseños modernos de Landing Pages creadidos en Figma. Incluye plantillas editables y personalizables para startups, SaaS, negocios, e-commerce y proyectos digitales, listas para inspirar, prototipar o acelerar el desarrollo web.',
+    repository:
+      'https://github.com/JuanDavidBermeoCastro1234/mi-pagina-web',
+    preview:
+      'https://mi-pagina-web-ecru.vercel.app',
+    screenshot: Diseños,
+    imageAlt: 'Captura de los diseños',
+    tags: ['CSS', 'figma', 'UI','github','version-control','git'],
   },
 ]
 
