@@ -115,6 +115,13 @@ const projects: Project[] = [
 
 const experience = [
   {
+    role: 'Desarrollador Full Stack - Practicas laborales',
+    place: 'Globant',
+    time: '12 meses',
+    detail:
+      'Participe en practicas laborales como desarrollador full stack, trabajando en un proyecto con Java, Spring Boot y React. Tambien fortaleci conocimientos en diseno web para paginas web, bases de datos y arquitectura web dentro de la empresa.',
+  },
+  {
     role: 'Tecnico laboral en desarrollo de software Full Stack',
     place: 'Campuslands',
     time: 'Graduado',
@@ -141,10 +148,14 @@ const skills = [
   'React',
   'TypeScript',
   'JavaScript',
+  'Java',
+  'Spring Boot',
   'HTML',
   'CSS',
   'Python',
   'MongoDB',
+  'Bases de datos',
+  'Arquitectura web',
   'Node.js',
   'Git',
   'Vercel',
